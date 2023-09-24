@@ -3,26 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Star</title>
+    <title>Circle</title>
   </head>
   <body>
-    <div class="star-container">
+    <div class="circle-container">
       <svg
-        id="star"
+        id="circle"
         xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
         width="600"
         height="600"
-        viewBox="0 0 300 300"
-        shape-rendering="geometricPrecision"
-        text-rendering="geometricPrecision"
+        viewBox="0 0 400 400"
       >
-        <polygon
-          points="0,-110.218978 32.392545,-44.584513 104.824477,-34.059537 52.412239,17.029769 64.78509,89.169026 0,55.109489 -64.78509,89.169026 -52.412239,17.029769 -104.824477,-34.059537 -32.392545,-44.584513 0,-110.218978"
-          transform="translate(150 160.524976)"
-          fill="#d2dbed"
+        <circle
+          cx="110"
+          cy="110"
+          r="100"
+          transform="translate(80 100)"
+          fill="#000000"
           stroke-width="0"
         />
+      </svg>
+    </div>
+    <div class="star">
+      <svg>
+        <use xlink:href="images/SVG/star.svg#star"></use>
       </svg>
     </div>
   </body>
